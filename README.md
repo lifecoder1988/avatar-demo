@@ -1,1 +1,1 @@
-# avtar-demo
+# avatar-demo
