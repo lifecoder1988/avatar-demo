@@ -3,11 +3,7 @@
 
 <head>
 
-  <script>
-    window.ENV = {
-      DEMO: '<%- process.env.DEMO %>'
-    };
-  </script>
+
 
   <title>Talking Head - minimal example</title>
 
@@ -96,8 +92,8 @@
       //       that you are the only one to have access to that code!
       const nodeAvatar = document.getElementById('avatar');
       head = new TalkingHead(nodeAvatar, {
-        ttsEndpoint: "https://openspeech.bytedance.com/api/v1/tts",
-        ttsApikey: "put-your-own-Google-TTS-API-key-here", // <- Change this
+        ttsEndpoint: "https://eu-texttospeech.googleapis.com/v1beta1/text:synthesize",
+        ttsApikey: "AIzaSyBD8hyB-bQQgA9hIpPPHwmdz4PDMUHJfDo", // <- Change this
         lipsyncModules: ["en", "fi"],
         cameraView: "upper"
       });
