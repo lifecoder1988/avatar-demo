@@ -1,5 +1,5 @@
 {
-  "functions": {
-    "/api/key": "api-handler.js"
-  }
+  "version": 1,
+  "include": ["/*"],
+  "exclude": []
 }
